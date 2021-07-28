@@ -99,3 +99,13 @@ FOR DARKEN BACKGROUND IMAGE WITHOUT CONTENT EFFCET
       background-blend-mode: darken;
 
 }
+
+letter-spacing
+
+      .contact-title h2{
+      font-size: 16px;
+      line-height: 10px;
+      font-weight: 600;
+      letter-spacing: 2px;
+
+}
