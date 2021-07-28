@@ -3,8 +3,6 @@
 Media queries (FROM TRANSPARENT LOGIN PROJECT)
 
 
-
-
 @media only screen  and (min-width: 1200px) {
       
       .container{
@@ -93,3 +91,8 @@ Media queries (FROM TRANSPARENT LOGIN PROJECT)
     height:100%;
     width:100%; 
 }   
+
+FOR DARKEN BACKGROUND IMAGE WITHOUT CONTENT EFFCET
+
+background: url(11.jpg) no-repeat center center fixed rgba(0, 0, 0, 0.5) ;
+background-blend-mode: darken;
