@@ -94,5 +94,8 @@ Media queries (FROM TRANSPARENT LOGIN PROJECT)
 
 FOR DARKEN BACKGROUND IMAGE WITHOUT CONTENT EFFCET
 
-background: url(11.jpg) no-repeat center center fixed rgba(0, 0, 0, 0.5) ;
-background-blend-mode: darken;
+      body {
+      background: url(11.jpg) no-repeat center center fixed rgba(0, 0, 0, 0.5) ;
+      background-blend-mode: darken;
+
+}
