@@ -3,27 +3,38 @@
 Media queries (FROM TRANSPARENT LOGIN PROJECT)
 
 
-@media only screen  and (min-width: 1200px) {
+      @media only screen  and (min-width: 1200px) {
       
       .container{
             top: 25%;
-            left: 41%;
+            left: 36%;
       }
     }
 
-@media only screen and (max-width: 800px) {
+      @media only screen and (max-width: 840px) {
       
       .container{
-            top: 25%;
-            left: 35%;
-      }   
+            top: 30%;
+            left: 20%;
+      }
+     .container h1{
+            width:53%;
+            font-size: 26px;
+            margin-bottom: 10px;
+            padding: 1px 0;
+      }
+
+      .box input{
+            font-size: 18px;
+      }
+    
     }
 
     @media only screen and (max-width: 600px) {
       
       .container{
             top: 28%;
-            left: 25%;
+            left: 11%;
       }
 
       .container h1{
@@ -37,11 +48,11 @@ Media queries (FROM TRANSPARENT LOGIN PROJECT)
             font-size: 18px;
       }
     }
-    
-@media only screen and (max-width: 450px) {
+
+      @media only screen and (max-width: 470px) {
       
       .container{
-            top: 28%;
+            top: 32%;
             left: 30%;
       }
 
@@ -72,8 +83,9 @@ Media queries (FROM TRANSPARENT LOGIN PROJECT)
             font-size: 14px;
             margin: 8px 0;
             padding: 6px 10px;
-      }  
+      }
     }
+
 
     
     
@@ -96,6 +108,7 @@ FOR DARKEN BACKGROUND IMAGE WITHOUT CONTENT EFFCET
 
       body {
       background: url(11.jpg) no-repeat center center fixed rgba(0, 0, 0, 0.5) ;
+      background-size: cover;
       background-blend-mode: darken;
 
 }
